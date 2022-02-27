@@ -87,7 +87,7 @@ pnpm add -D prettier
 
 2. 添加配置文件
 
-```json
+```javascript
 {
   "semi": false, // 不使用分号
   "singleQuote": true, // 使用单引号
@@ -297,6 +297,6 @@ pnpm add -D lint-staged
 
 3. 修改 pre-commit hook
 
-```json
+```shell
 npx lint-staged
 ```
